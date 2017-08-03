@@ -2,7 +2,7 @@
 
 :bird:
 
-Dockerized version of [https://github.com/sferik/t](sferik/t) for command line Twitter
+Dockerized version of [sferik/t](https://github.com/sferik/t) for command line Twitter
 
 ## Installation
 

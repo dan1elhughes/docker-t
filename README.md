@@ -1,5 +1,7 @@
 # Docker T
 
+:bird:
+
 Dockerized version of [https://github.com/sferik/t](sferik/t) for command line Twitter
 
 ## Installation
@@ -11,6 +13,12 @@ Dockerized version of [https://github.com/sferik/t](sferik/t) for command line T
 
 - `docker run -v /$HOME/.trc:/root/.trc dan1elhughes/docker-t stream timeline`
 - Or with alias (below): `t stream timeline`
+
+## Result
+
+Command line Twitter! See [here](https://github.com/sferik/t) for available commands
+
+![](https://i.imgur.com/BqGwGHY.png)
 
 ## Aliasing
 

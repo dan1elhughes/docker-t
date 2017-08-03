@@ -1,12 +1,6 @@
-FROM ruby
+FROM ruby:alpine
 
-ENV INSTALL_PATH /app
-
-RUN mkdir $INSTALL_PATH
-
-WORKDIR $INSTALL_PATH
-
-RUN git clone "https://github.com/sferik/t" $INSTALL_PATH
+RUN apk --update --no-cache add git make g++
 
 RUN gem install t
 
